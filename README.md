@@ -3,6 +3,7 @@ Homework Unit 4 | Assignment -  Pandas, Pandas, Pandas
 
 # Option 1: Heroes of Pymoli
 Source File: purchase_data
+![alt text](https://github.com/DanielMJones2005/HW_Unit4_Pandas/blob/master/Fantasy.png)
 
 # Player Count
 Total Number of Players
