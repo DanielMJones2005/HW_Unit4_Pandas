@@ -26,11 +26,57 @@ Number of Unique Items
 Average Purchase Price
 Total Number of Purchases
 Total Revenue
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Number of Unique Items</th>
+      <th>Average Price</th>
+      <th>Number of Purchases</th>
+      <th>Total Revenue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>183</td>
+      <td>$3.05</td>
+      <td>780</td>
+      <td>$2,379.77</td>
+    </tr>
+  </tbody>
+</table>
 
 # Gender Demographics
 Percentage and Count of Male Players
 Percentage and Count of Female Players 
 Percentage and Count of Other / Non-Disclosed
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Total Count</th>
+      <th>Percentage of Players</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Male</th>
+      <td>484</td>
+      <td>84.03</td>
+    </tr>
+    <tr>
+      <th>Female</th>
+      <td>81</td>
+      <td>14.06</td>
+    </tr>
+    <tr>
+      <th>Other / Non-Disclosed</th>
+      <td>11</td>
+      <td>1.91</td>
+    </tr>
+  </tbody>
+</table>
 
 # Purchasing Analysis (Gender)
 The below each broken by gender:
@@ -38,6 +84,47 @@ The below each broken by gender:
 - Average Purchase Price
 - Total Purchase Value
 - Average Purchase Total per Person by Gender
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Purchase Count</th>
+      <th>Average Purchase Price</th>
+      <th>Total Purchase Value</th>
+      <th>Avg Total Purchase per Person</th>
+    </tr>
+    <tr>
+      <th>Gender</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Female</th>
+      <td>113</td>
+      <td>$3.20</td>
+      <td>$361.94</td>
+      <td>$4.47</td>
+    </tr>
+    <tr>
+      <th>Male</th>
+      <td>652</td>
+      <td>$3.02</td>
+      <td>$1,967.64</td>
+      <td>$4.07</td>
+    </tr>
+    <tr>
+      <th>Other / Non-Disclosed</th>
+      <td>15</td>
+      <td>$3.35</td>
+      <td>$50.19</td>
+      <td>$4.56</td>
+    </tr>
+  </tbody>
+</table>
 
 # Age Demographics
 The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
@@ -45,6 +132,57 @@ The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
 - Average Purchase Price
 - Total Purchase Value
 - Average Purchase Total per Person by Age Group
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Total Count</th>
+      <th>Percentage of Players</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>&lt;10</th>
+      <td>17</td>
+      <td>2.95</td>
+    </tr>
+    <tr>
+      <th>10-14</th>
+      <td>22</td>
+      <td>3.82</td>
+    </tr>
+    <tr>
+      <th>15-19</th>
+      <td>107</td>
+      <td>18.58</td>
+    </tr>
+    <tr>
+      <th>20-24</th>
+      <td>258</td>
+      <td>44.79</td>
+    </tr>
+    <tr>
+      <th>25-29</th>
+      <td>77</td>
+      <td>13.37</td>
+    </tr>
+    <tr>
+      <th>30-34</th>
+      <td>52</td>
+      <td>9.03</td>
+    </tr>
+    <tr>
+      <th>35-39</th>
+      <td>31</td>
+      <td>5.38</td>
+    </tr>
+    <tr>
+      <th>40+</th>
+      <td>12</td>
+      <td>2.08</td>
+    </tr>
+  </tbody>
+</table>
 
 # Purchasing Analysis (Age)
 The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
