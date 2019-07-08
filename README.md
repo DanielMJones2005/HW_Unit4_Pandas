@@ -46,12 +46,136 @@ The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
 - Total Purchase Value
 - Average Purchase Total per Person by Age Group
 
-#Top Spenders
+# Purchasing Analysis (Age)
+The below each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.)
+- Purchase Count
+- Average Purchase Price
+- Total Purchase Value
+- Average Purchase Total per Person etc. in the table below
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Purchase Count</th>
+      <th>Average Purchase Price</th>
+      <th>Total Purchase Value</th>
+      <th>Avg Total Purchase per Person</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>10-14</th>
+      <td>28</td>
+      <td>$2.96</td>
+      <td>$82.78</td>
+      <td>$3.76</td>
+    </tr>
+    <tr>
+      <th>15-19</th>
+      <td>136</td>
+      <td>$3.04</td>
+      <td>$412.89</td>
+      <td>$3.86</td>
+    </tr>
+    <tr>
+      <th>20-24</th>
+      <td>365</td>
+      <td>$3.05</td>
+      <td>$1,114.06</td>
+      <td>$4.32</td>
+    </tr>
+    <tr>
+      <th>25-29</th>
+      <td>101</td>
+      <td>$2.90</td>
+      <td>$293.00</td>
+      <td>$3.81</td>
+    </tr>
+    <tr>
+      <th>30-34</th>
+      <td>73</td>
+      <td>$2.93</td>
+      <td>$214.00</td>
+      <td>$4.12</td>
+    </tr>
+    <tr>
+      <th>35-39</th>
+      <td>41</td>
+      <td>$3.60</td>
+      <td>$147.67</td>
+      <td>$4.76</td>
+    </tr>
+    <tr>
+      <th>40+</th>
+      <td>13</td>
+      <td>$2.94</td>
+      <td>$38.24</td>
+      <td>$3.19</td>
+    </tr>
+    <tr>
+      <th>&lt;10</th>
+      <td>23</td>
+      <td>$3.35</td>
+      <td>$77.13</td>
+      <td>$4.54</td>
+    </tr>
+  </tbody>
+</table>
+
+# Top Spenders
 Identify the the top 5 spenders in the game by total purchase value, then list (in a table): 
 - SN
 - Purchase Count
 - Average Purchase Price
 - Total Purchase Value
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Purchase Count</th>
+      <th>Average Purchase Price</th>
+      <th>Total Purchase Value</th>
+    </tr>
+    <tr>
+      <th>SN</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Lisosia93</th>
+      <td>5</td>
+      <td>$3.79</td>
+      <td>$18.96</td>
+    </tr>
+    <tr>
+      <th>Idastidru52</th>
+      <td>4</td>
+      <td>$3.86</td>
+      <td>$15.45</td>
+    </tr>
+    <tr>
+      <th>Chamjask73</th>
+      <td>3</td>
+      <td>$4.61</td>
+      <td>$13.83</td>
+    </tr>
+    <tr>
+      <th>Iral74</th>
+      <td>4</td>
+      <td>$3.40</td>
+      <td>$13.62</td>
+    </tr>
+    <tr>
+      <th>Iskadarya95</th>
+      <td>3</td>
+      <td>$4.37</td>
+      <td>$13.10</td>
+    </tr>
+  </tbody>
+</table>
 
 # Most Popular Items
 Identify the 5 most popular items by purchase count, then list (in a table): 
